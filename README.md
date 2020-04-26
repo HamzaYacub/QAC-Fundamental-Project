@@ -7,6 +7,7 @@
 * [Product Backlog](#product-backlog)
 * [Sprint Backlog](#sprint-backlog)
 * [Project Tracking](#project-tracking)
+* [Acceptance Criteria](#acceptance-criteria)
 * [Design](#design)
 * [Tools and Technologies](#tools-and-technologies)
 * [Testing](#testing)
@@ -35,6 +36,10 @@ A list of tasks needed to be done for each user story
 ## Project Tracking
 
 Show trello board here
+
+## Acceptance Criteria
+
+Set of statements that usually have a pass/fail result for requirements
 
 ## Design
 
