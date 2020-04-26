@@ -3,9 +3,9 @@
 ## Table of contents
 * [Introduction](#introduction)
 * [Diagrams](#diagrams)
-* [Risk Assessment](#risk-assessment)
 * [Product Backlog](#product-backlog)
 * [Sprint Backlog](#sprint-backlog)
+* [Risk Assessment](#risk-assessment)
 * [Project Tracking](#project-tracking)
 * [Acceptance Criteria](#acceptance-criteria)
 * [Design](#design)
@@ -21,10 +21,6 @@ quick summary explaining what project does and what was the incentive behind thi
 
 ERD and UML diagrams here
 
-## Risk Assessment
-
-table of risk assessment
-
 ## Product Backlog
 
 list of functional and non functional requirements of the project / user stories / include story points
@@ -32,6 +28,10 @@ list of functional and non functional requirements of the project / user stories
 ## Sprint Backlog
 
 A list of tasks needed to be done for each user story
+
+## Risk Assessment
+
+table of risk assessment
 
 ## Project Tracking
 
