@@ -1,4 +1,4 @@
-# QA_Fundamental_Project
+# QAC Fundamental Project - Name of project here
 
 ## Table of contents
 * [Introduction](#introduction)
