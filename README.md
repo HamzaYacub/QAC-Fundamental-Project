@@ -4,7 +4,9 @@
 * [Introduction](#introduction)
 * [Diagrams](#diagrams)
 * [Risk Assessment](#risk-assessment)
-* [List of project requirements](#list-of-project-requirements)
+* [Product Backlog](#product-backlog)
+* [Sprint Backlog](#sprint-backlog)
+* [Project Tracking](#project-tracking)
 * [Design](#design)
 * [Tools and Technologies](#tools-and-technologies)
 * [Testing](#testing)
@@ -22,9 +24,17 @@ ERD and UML diagrams here
 
 table of risk assessment
 
-## List of project requirements
+## Product Backlog
 
-list of functional and non functional requirements of the project
+list of functional and non functional requirements of the project / user stories / include story points
+
+## Sprint Backlog
+
+A list of tasks needed to be done for each user story
+
+## Project Tracking
+
+Show trello board here
 
 ## Design
 
