@@ -60,4 +60,4 @@ how to launch project
 
 [trello-link]: https://trello.com/b/VTXiegA8/car-hire-system-qac
 [erd-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/ERD%20Diagram.png
-[ra-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/risk%20assessment%20png%20.png
+[ra-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/risk%20assessment%20pic.png
