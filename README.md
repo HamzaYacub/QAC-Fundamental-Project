@@ -19,7 +19,7 @@ quick summary explaining what project does and what was the incentive behind thi
 
 ## Product Backlog
 
-list of functional and non functional requirements of the project / user stories / include story points
+![Product backlog][pb-link]
 
 ## Sprint Backlog
 
@@ -61,3 +61,4 @@ how to launch project
 [trello-link]: https://trello.com/b/VTXiegA8/car-hire-system-qac
 [erd-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/ERD%20Diagram.png
 [ra-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/risk%20assessment%20pic.png
+[pb-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/product%20backlog.png
