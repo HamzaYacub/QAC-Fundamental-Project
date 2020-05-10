@@ -26,7 +26,7 @@ The overall objective of this project was to create a CRUD application with util
 * Databases
 
 
-As I had full control over the topic of this project, I decided to create a car rental system that would allow a user to select a car to rent from a list of available vehicles.
+As I had full control over the topic of this project, I decided to create a car hire system that would allow a user to select a car to rent from a list of available vehicles.
 
 ## Project Tracking
 
