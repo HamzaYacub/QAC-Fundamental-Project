@@ -13,7 +13,7 @@
 
 ## Introduction
 
-The overall objective of this project is to create a CRUD application with utilisation of supporting tools,methodologies and technologies that encapsulate all core modules that are covered during training. These core modules include: 
+The overall objective of this project was to create a CRUD application with utilisation of supporting tools,methodologies and technologies that encapsulate all core modules that are covered during training. These core modules include: 
 
 * Project Management 
 * Python Fundamentals 
@@ -26,7 +26,7 @@ The overall objective of this project is to create a CRUD application with utili
 * Databases
 
 
-As I had full control over the topic of this project, I decided to create a car rental system that would allow the user to select a car to rent from a list of available vehicles.
+As I had full control over the topic of this project, I decided to create a car rental system that would allow a user to select a car to rent from a list of available vehicles.
 
 ## Project Tracking
 
