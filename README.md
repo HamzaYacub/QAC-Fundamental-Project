@@ -27,7 +27,7 @@ A list of tasks needed to be done for each user story
 
 ## Project Tracking
 
-Show trello board here
+A [Trello][trello-link] board was used to organise this project of all of its respective requirements and tasks.
 
 ## Diagrams
 
@@ -56,3 +56,6 @@ explain what testing was done for the code in this project
 ## Launch
 
 how to launch project
+
+
+[trello-link]: https://trello.com/b/VTXiegA8/car-hire-system-qac
