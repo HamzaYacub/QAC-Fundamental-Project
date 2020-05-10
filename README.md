@@ -31,11 +31,11 @@ A [Trello][trello-link] board was used to organise this project of all of its re
 
 ## Diagrams
 
-ERD and UML diagrams here
+![ERD][erd-link]
 
 ## Risk Assessment
 
-table of risk assessment
+![Risk Assessment][ra-link]
 
 ## Design
 
@@ -59,3 +59,5 @@ how to launch project
 
 
 [trello-link]: https://trello.com/b/VTXiegA8/car-hire-system-qac
+[erd-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/ERD%20Diagram.png
+[ra-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/risk%20assessment%20png%20.png
