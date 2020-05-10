@@ -27,7 +27,7 @@ A list of tasks needed to be done for each user story
 
 ## Project Tracking
 
-A [Trello] [trello-link] board was used to organise this project of all of its respective requirements and tasks.
+A [Trello][trello-link] board was used to organise this project of all of its respective requirements and tasks.
 
 ## Diagrams
 
