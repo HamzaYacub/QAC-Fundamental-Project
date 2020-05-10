@@ -17,17 +17,11 @@
 
 quick summary explaining what project does and what was the incentive behind this
 
-## Product Backlog
-
-![Product backlog][pb-link]
-
-## Sprint Backlog
-
-A list of tasks needed to be done for each user story
-
 ## Project Tracking
 
 A [Trello][trello-link] board was used to organise this project of all of its respective requirements and tasks.
+
+show screenshot of trello board here with pb and all tasks added
 
 ## Diagrams
 
