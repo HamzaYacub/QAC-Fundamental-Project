@@ -1,7 +1,18 @@
 {% extends "layout.html" %}
 
 {% block body_content %}
-
-		This is my website!
-
+{% for rental in rentals %}
+<div>
+	<h2>Rental: {{rental.rental_ID }}</h2>
+	<p><b>Car ID: </b>{{ rental.car.car_ID }}</p>
+	<p><b>Start of Rental: </b>{{ rental.rental_start }}</p>
+	<p><b>End of Rental: </b>{{ rental.rental_end }}</p>
+	<p><b>Type of Insurance: </b>{{ rental.insurance_type }}</p>
+	<p><b>Excess Amount: </b>£ {{ rental.excess }}</p>
+	<p><b>Price of rental: </b>£ {{ rental.price }}</p>
+	<br>
+	
+	<hr>
+</div>
+{% endfor %}
 {% endblock %}
