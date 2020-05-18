@@ -77,6 +77,23 @@ def updateCar(id):
 @app.route('/rent', methods=['GET', 'POST'])
 def rentCar():
     form = RentCarForm()
+    if form.validate_on_submit():
+        rentData = Rentals(
+            car = form.options.data,
+            rental_start = form.rental_start.data,
+            rental_end = form.rental_end.data,
+            insurance_type = form.insurance_type.data,
+            excess = form.excess.data,
+            price = form.price.data
+        )
+
+        db.session.add(rentData)
+        db.session.commit()
+
+        return redirect(url_for('rental_history'))
+
+    else:
+        print(form.errors)
     
     return render_template('rent.html', title="Rent a Car", form=form)
 
