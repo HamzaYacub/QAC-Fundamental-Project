@@ -1,7 +1,82 @@
 {% extends "layout.html" %}
 
 {% block body_content %}
+<form method='POST' action=''>
+	{{ form.hidden_tag() }}
+	{{ form.csrf_token() }}
 
-		asfasdfasdfasf
+	<p>Car ID {{ form.options }}</p>
+
+	{% if error in form.options %}
+		{% for error in form.options.errors %}
+			{{ error }}
+		{% endfor %}
+	{% endif %}
+
+	{{ form.rental_start.label }}
+	{{ form.rental_start }}
+
+	{% if form.rental_start.errors %}
+		{% for error in form.rental_start.errors %}
+			{{ error }}
+		{% endfor %}
+	{% endif %}
+
+	<br>
+	<br>
+
+	{{ form.rental_end.label }}
+	{{ form.rental_end }}
+
+	{% if form.rental_end.errors %}
+		{% for error in form.rental_end.errors %}
+			{{ error }}
+		{% endfor %}
+	{% endif %}
+
+	<br>
+	<br>
+
+	{{ form.insurance_type.label }}
+	{{ form.insurance_type }}
+
+	{% if form.insurance_type.errors %}
+		{% for error in form.insurance_type.errors %}
+			{{ error }}
+		{% endfor %}
+	{% endif %}
+
+	<br>
+	<br>
+
+	{{ form.excess.label }}
+	{{ form.excess }}
+
+	{% if form.excess.errors %}
+		{% for error in form.excess.errors %}
+			{{ error }}
+		{% endfor %}
+	{% endif %}
+
+	<br>
+	<br>
+
+	{{ form.price.label }}
+	{{ form.price }}
+
+	{% if form.price.errors %}
+		{% for error in form.price.errors %}
+			{{ error }}
+		{% endfor %}
+	{% endif %}
+
+	<br>
+	<br>
+	<br>
+
+	{{ form.rent }}
+
+</form>
+	
 
 {% endblock %}

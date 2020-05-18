@@ -1,7 +1,21 @@
 {% extends "layout.html" %}
 
 {% block body_content %}
-
-		This is my website!
-
+{% for car in cars %}
+<div>
+	<h2>{{ car.make }} {{ car.model }}</h2>
+	<p><b>Colour: </b>{{ car.colour }}</p>
+	<p><b>Year Manufactured: </b>{{ car.year }}</p>
+	<p><b>Gearbox: </b>{{ car.gearbox }}</p>
+	<p><b>Mileage: </b>{{ car.mileage }} miles</p>
+	<p><b>Fuel Type: </b>{{ car.fuel_type }}</p>
+	<p><b>Engine Size: </b>{{ car.engine_size }}cc</p>
+	<p><b>Doors: </b>{{ car.doors }} </p>
+	<p><b>Seats: </b>{{ car.seats }}</p>
+	<p><b>Car ID: </b>{{ car.car_ID }}</p>
+	<br>
+	<p>Something not right? <a href="\update_car\{{ car.car_ID }}">Update this car's information</a> <p>
+	<hr>
+</div>
+{% endfor %}
 {% endblock %}
