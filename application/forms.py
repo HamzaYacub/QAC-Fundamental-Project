@@ -134,8 +134,8 @@ def car_query():
 
 class RentCarForm(FlaskForm):
     options = QuerySelectField(query_factory=car_query, allow_blank=False, get_label='car_ID')
-    rental_start = DateField('Start', format='%Y-%m-%d' )
-    rental_end = DateField('End of rental', format='%Y-%m-%d' )
+    rental_start = DateField('Start of Rental', format='%Y-%m-%d' )
+    rental_end = DateField('End of Rental', format='%Y-%m-%d' )
 
     insurance_type = StringField('Type of Insurance', 
             validators = [
@@ -160,9 +160,9 @@ class RentCarForm(FlaskForm):
 
     rent = SubmitField('Confirm Rental')
 
-    def validate_date(self):
-        if (self.rental_start.data>self.rental_end.data):
-                raise ValidationError('Start date cannot be later than the end date!')
+    def validate_rental_end(form, field):
+        if field.data < form.rental_start.data:
+                raise ValidationError('End date cannot be earlier than the start date!')
 
 class UpdateRentalForm(FlaskForm):
     options = QuerySelectField(query_factory=car_query, allow_blank=False, get_label='car_ID')
@@ -191,9 +191,9 @@ class UpdateRentalForm(FlaskForm):
                 ]
     )
 
-    def validate_date(self):
-        if (self.rental_start.data>self.rental_end.data):
-                raise ValidationError('Start date cannot be later than the end date!')
+    def validate_rental_end(form, field):
+        if field.data < form.rental_start.data:
+                raise ValidationError('End date cannot be earlier than the start date!')
 
     update = SubmitField('Update Rental')
 

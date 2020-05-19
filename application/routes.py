@@ -72,7 +72,7 @@ def updateCar(id):
         form.colour.data = getCar.colour
         form.price.data = getCar.price
 
-    return render_template('update.html', title='Update Car Information', form=form)
+    return render_template('update.html', title='Update Car Information', form=form, car=getCar)
 
 @app.route('/rent', methods=['GET', 'POST'])
 def rentCar():
@@ -131,5 +131,16 @@ def update_rental(id):
 
     return render_template('updateRental.html', title='Update Rental Information', form=form)
 
+@app.route('/update_car/<id>/delete', methods=["GET", "POST"])
+def car_delete(id):
+    car = Cars.query.filter_by(car_ID=id).first()
+    rentals = Rentals.query.filter_by(car_ID=id).all()
 
+    for rental in rentals:
+        db.session.delete(rental)
+    db.session.delete(car)
+
+    db.session.commit() 
+
+    return redirect(url_for('home'))
 

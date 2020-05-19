@@ -50,7 +50,7 @@
 	<br>
 
 	{{ form.excess.label }}
-	{{ form.excess }}
+	 £ {{ form.excess }}
 
 	{% if form.excess.errors %}
 		{% for error in form.excess.errors %}
@@ -61,8 +61,8 @@
 	<br>
 	<br>
 
-	{{ form.price.label }}
-	{{ form.price }}
+	{{ form.price.label }}     
+	 £ {{ form.price }}
 
 	{% if form.price.errors %}
 		{% for error in form.price.errors %}
