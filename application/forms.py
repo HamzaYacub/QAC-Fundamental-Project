@@ -163,3 +163,37 @@ class RentCarForm(FlaskForm):
     def validate_date(self):
         if (self.rental_start.data>self.rental_end.data):
                 raise ValidationError('Start date cannot be later than the end date!')
+
+class UpdateRentalForm(FlaskForm):
+    options = QuerySelectField(query_factory=car_query, allow_blank=False, get_label='car_ID')
+
+    rental_start = DateField('Start', format='%Y-%m-%d' )
+    rental_end = DateField('End of rental', format='%Y-%m-%d' )
+
+    insurance_type = StringField('Type of Insurance', 
+            validators = [
+                DataRequired(),
+                Length(min=3, max=20)
+                ]
+    )
+    
+    excess = IntegerField('Excess', 
+            validators = [
+                DataRequired(),
+                NumberRange(min=1, max=1000000)
+                ]
+    )
+    
+    price = IntegerField('Price of Rental', 
+            validators = [
+                DataRequired(),
+                NumberRange(min=1, max=1000000)
+                ]
+    )
+
+    def validate_date(self):
+        if (self.rental_start.data>self.rental_end.data):
+                raise ValidationError('Start date cannot be later than the end date!')
+
+    update = SubmitField('Update Rental')
+

@@ -1,7 +1,7 @@
 from flask import render_template, redirect, url_for, request
 from application import app, db, bcrypt
 from application.models import Cars, Rentals
-from application.forms import AddCarForm, UpdateCarForm, RentCarForm
+from application.forms import AddCarForm, UpdateCarForm, RentCarForm, UpdateRentalForm
 
 @app.route('/')
 @app.route('/home')
@@ -44,20 +44,20 @@ def updateCar(id):
     getCar = Cars.query.filter_by(car_ID=id).first()
 
     if form.validate_on_submit():
-            getCar.make = form.make.data
-            getCar.model = form.model.data
-            getCar.year = form.year.data
-            getCar.mileage = form.mileage.data
-            getCar.gearbox = form.gearbox.data
-            getCar.doors = form.doors.data
-            getCar.seats = form.seats.data
-            getCar.fuel_type = form.fuel_type.data
-            getCar.engine_size = form.engine_size.data
-            getCar.colour = form.colour.data
-            getCar.price = form.price.data
+        getCar.make = form.make.data
+        getCar.model = form.model.data
+        getCar.year = form.year.data
+        getCar.mileage = form.mileage.data
+        getCar.gearbox = form.gearbox.data
+        getCar.doors = form.doors.data
+        getCar.seats = form.seats.data
+        getCar.fuel_type = form.fuel_type.data
+        getCar.engine_size = form.engine_size.data
+        getCar.colour = form.colour.data
+        getCar.price = form.price.data
         
-            db.session.commit()
-            return redirect(url_for('home'))
+        db.session.commit()
+        return redirect(url_for('home'))
 
     elif request.method == 'GET':
         form.make.data = getCar.make
@@ -103,5 +103,33 @@ def rental_history():
     rentData = Rentals.query.all()
     
     return render_template('rentalHistory.html', title="Rental History", rentals=rentData)
+
+@app.route('/update_rental/<id>', methods=['GET', 'POST'])
+def update_rental(id):
+    form = UpdateRentalForm()
+
+    getRental = Rentals.query.filter_by(rental_ID=id).first()
+
+    if form.validate_on_submit():
+        getRental.car = form.options.data
+        getRental.rental_start = form.rental_start.data
+        getRental.rental_end = form.rental_end.data
+        getRental.insurance_type = form.insurance_type.data
+        getRental.excess = form.excess.data
+        getRental.price = form.price.data
+        
+        db.session.commit()
+        return redirect(url_for('rental_history'))
+
+    elif request.method == 'GET':
+        form.options.data = getRental.car
+        form.rental_start.data = getRental.rental_start
+        form.rental_end.data = getRental.rental_end 
+        form.insurance_type.data = getRental.insurance_type
+        form.excess.data = getRental.excess
+        form.price.data = getRental.price
+
+    return render_template('updateRental.html', title='Update Rental Information', form=form)
+
 
 

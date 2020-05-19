@@ -11,7 +11,9 @@
 	<p><b>Excess Amount: </b>£ {{ rental.excess }}</p>
 	<p><b>Price of rental: </b>£ {{ rental.price }}</p>
 	<br>
-	
+	<form action="\update_rental\{{ rental.rental_ID }}">
+		<button type="submit">Update Rental Details</button>
+	 </form>
 	<hr>
 </div>
 {% endfor %}
