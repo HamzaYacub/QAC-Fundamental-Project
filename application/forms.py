@@ -9,12 +9,12 @@ class AddCarForm(FlaskForm):
     make = StringField('Make', 
             validators = [
                 DataRequired(),
-                Length(min=3, max=30)
+                Length(min=3, max=20)
                 ]
     )
     model = StringField('Model', 
             validators = [
-                Length(min=3, max=30)
+                Length(min=3, max=20)
                 ]
     )
     year = DateField('Year', format='%Y-%m-%d' )
@@ -49,7 +49,7 @@ class AddCarForm(FlaskForm):
     )
     engine_size = IntegerField('Engine size', 
             validators = [
-                NumberRange(min=0, max=10000)
+                NumberRange(min=500, max=10000)
                 ]
     )
     colour = StringField('Colour', 
