@@ -7,7 +7,6 @@ from application.forms import AddCarForm, UpdateCarForm, RentCarForm, UpdateRent
 @app.route('/home')
 def home():
     carData = Cars.query.all()
-    print("hello")
     return render_template('home.html', title="Cars Available", cars=carData)
 
 @app.route('/add_car', methods=['GET', 'POST'])
