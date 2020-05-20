@@ -14,4 +14,4 @@ source /var/lib/jenkins/workspace/carhire_freestyle/venv/bin/activate
 
 pip3 install -r requirements.txt
 
-gunicorn --bind=0.0.0.0:5000 /var/lib/jenkins/workspace/carhire_freestyle/application:app
+gunicorn --bind=0.0.0.0:5000 application:app
