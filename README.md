@@ -7,7 +7,6 @@
 * [Risk Assessment](#risk-assessment)
 * [Design](#design)
 * [Deployment](#deployment)
-* [Acceptance Criteria](#acceptance-criteria)
 * [Testing](#testing)
 * [Improvements for future](#improvements-for-future)
 
@@ -62,10 +61,6 @@ show diagram of tools working together
 ### Tools and Technologies
 
 technologies used
-
-## Acceptance Criteria
-
-Set of statements that usually have a pass/fail result for requirements
 
 ## Testing
 
