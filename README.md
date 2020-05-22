@@ -6,7 +6,7 @@
 * [Diagrams](#diagrams)
 * [Risk Assessment](#risk-assessment)
 * [Design](#design)
-* [Tools and Technologies](#tools-and-technologies)
+* [Deployment](#deployment)
 * [Acceptance Criteria](#acceptance-criteria)
 * [Testing](#testing)
 * [Improvements for future](#improvements-for-future)
@@ -55,7 +55,11 @@ This updated ERD only shows the relationship between 2 tables rather than 3 as i
 
 show screenshots of project, explain how each feature in design addresses the functional requirements
 
-## Tools and Technologies
+## Deployment
+
+show diagram of tools working together
+
+### Tools and Technologies
 
 technologies used
 
