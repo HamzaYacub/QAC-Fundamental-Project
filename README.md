@@ -9,7 +9,6 @@
 * [Tools and Technologies](#tools-and-technologies)
 * [Acceptance Criteria](#acceptance-criteria)
 * [Testing](#testing)
-* [Launch](#launch)
 
 ## Introduction
 
@@ -65,11 +64,11 @@ Set of statements that usually have a pass/fail result for requirements
 
 ## Testing
 
-explain what testing was done for the code in this project
+Pytest, specifically Unit testing, has been used to test the code produced in this project. Selenium was planned to be used for Integration testing however it was not fully implemented and therefore not included at this time.
 
-## Launch
+#### Analysis
 
-how to launch project
+Through Unit testing, a coverage of 90% was acheived. To push this to 100%, further tests could have been made that tested if redirects had successfuly occured in each function.
 
 
 [trello-link]: https://trello.com/b/VTXiegA8/car-hire-system-qac
