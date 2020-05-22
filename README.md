@@ -1,4 +1,4 @@
-# QAC Fundamental Project - Car Hire System
+# Car Hire System
 
 ## Table of contents
 * [Introduction](#introduction)
