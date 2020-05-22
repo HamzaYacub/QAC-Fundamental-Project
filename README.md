@@ -32,7 +32,7 @@ As I had full control over the topic of this project, I decided to create a car 
 
 A [Trello][trello-link] board was used to organise this project of all of its respective requirements and tasks.
 
-show screenshot of trello board here with pb and all tasks added
+[Trello sc][trello-sc-link]
 
 ## Diagrams
 
@@ -73,6 +73,7 @@ how to launch project
 
 
 [trello-link]: https://trello.com/b/VTXiegA8/car-hire-system-qac
+[trello-sc-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/Trello.png
 [erd-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/ERD%20Diagram.png
 [erd2-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/ERD%20Diagram%20v2.png
 [ra-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/risk%20assessment%20pic.png
