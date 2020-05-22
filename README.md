@@ -32,7 +32,7 @@ As I had full control over the topic of this project, I decided to create a car 
 
 A [Trello][trello-link] board was used to organise this project of all of its respective requirements and tasks.
 
-[Trello sc][trello-sc-link]
+![Trello sc][trello-sc-link]
 
 ## Diagrams
 
