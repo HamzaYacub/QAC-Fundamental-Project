@@ -36,7 +36,16 @@ show screenshot of trello board here with pb and all tasks added
 
 ## Diagrams
 
+This was the initial design of the entity-relationship model which highlights the components and the relationships between the tables.
+
 ![ERD][erd-link]
+
+However after careful consideration and a look at the requirements, it was clear that a customers table was not necessary and doing so could cause the risk of gold-plating which is mentioned later in the risk assessment.
+
+![ERD2][erd2-link]
+
+This updated ERD only shows the relationship between 2 tables rather than 3 as is mentioned in the brief.  
+
 
 ## Risk Assessment
 
@@ -65,6 +74,6 @@ how to launch project
 
 [trello-link]: https://trello.com/b/VTXiegA8/car-hire-system-qac
 [erd-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/ERD%20Diagram.png
-[erd2-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/ERD2%20Diagram.png
+[erd2-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/ERD%20Diagram%20v2.png
 [ra-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/risk%20assessment%20pic.png
 [pb-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/product%20backlog.png
