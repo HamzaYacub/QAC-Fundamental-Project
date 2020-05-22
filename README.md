@@ -9,6 +9,7 @@
 * [Tools and Technologies](#tools-and-technologies)
 * [Acceptance Criteria](#acceptance-criteria)
 * [Testing](#testing)
+* [Improvements for future](#improvements-for-future)
 
 ## Introduction
 
@@ -66,9 +67,13 @@ Set of statements that usually have a pass/fail result for requirements
 
 Pytest, specifically Unit testing, has been used to test the code produced in this project. Selenium was planned to be used for Integration testing however it was not fully implemented and therefore not included at this time.
 
-#### Analysis
+### Analysis
 
 Through Unit testing, a coverage of 90% was acheived. To push this to 100%, further tests could have been made that tested if redirects had successfuly occured in each function.
+
+## Improvements for future
+
+a sort of final conclusion, say what went well but could have been improved or what can still be added.
 
 
 [trello-link]: https://trello.com/b/VTXiegA8/car-hire-system-qac
