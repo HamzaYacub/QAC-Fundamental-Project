@@ -6,10 +6,9 @@
 * [Diagrams](#diagrams)
 * [Risk Assessment](#risk-assessment)
 * [Design](#design)
-* [Tools and Technologies](#tools-and-technologies)
-* [Acceptance Criteria](#acceptance-criteria)
+* [Deployment](#deployment)
 * [Testing](#testing)
-* [Launch](#launch)
+* [Improvements for future](#improvements-for-future)
 
 ## Introduction
 
@@ -55,21 +54,25 @@ This updated ERD only shows the relationship between 2 tables rather than 3 as i
 
 show screenshots of project, explain how each feature in design addresses the functional requirements
 
-## Tools and Technologies
+## Deployment
+
+show diagram of tools working together
+
+### Tools and Technologies
 
 technologies used
 
-## Acceptance Criteria
-
-Set of statements that usually have a pass/fail result for requirements
-
 ## Testing
 
-explain what testing was done for the code in this project
+Pytest, specifically Unit testing, has been used to test the code produced in this project. Selenium was planned to be used for Integration testing however it was not fully implemented and therefore not included at this time.
 
-## Launch
+### Analysis
 
-how to launch project
+Through Unit testing, a coverage of 90% was acheived. To push this to 100%, further tests could have been made that tested if redirects had successfuly occured in each function.
+
+## Improvements for future
+
+a sort of final conclusion, say what went well but could have been improved or what can still be added.
 
 
 [trello-link]: https://trello.com/b/VTXiegA8/car-hire-system-qac
