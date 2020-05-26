@@ -12,7 +12,7 @@
 
 ## Introduction
 
-The overall objective of this project was to create a CRUD application with utilisation of supporting tools,methodologies and technologies that encapsulate all core modules that are covered during training. These core modules include: 
+The overall objective of this project was to create a CRUD application with utilisation of supporting tools, methodologies and technologies that encapsulate all core modules that are covered during training. These core modules include: 
 
 * Project Management 
 * Python Fundamentals 
