@@ -60,7 +60,17 @@ show diagram of tools working together
 
 ### Tools and Technologies
 
-technologies used
+* Python3 - Logic
+* Flask - Web development framework
+* Jinja2 - Web template for Python
+* WTforms - Forms rendering framework for web development
+* Jenkins - CI server
+* GUnicorn - Production server
+* MySQL - Database
+* Pytest - Unit testing
+* Git - Version control system
+* Trello - Project tracking
+* Google cloud platform - Live environment
 
 ## Testing
 
@@ -72,8 +82,13 @@ Through Unit testing, a coverage of 90% was acheived. To push this to 100%, furt
 
 ## Improvements for future
 
-a sort of final conclusion, say what went well but could have been improved or what can still be added.
+Initially, it was planned to have a login system consisting of a customer and an admin. The admin would have most control over the application. They would have access to add a car and make the rental for the customer; while the user would only be able to sign up and view the cars available.
 
+To acheive this: 
+
+* Another table would have to included which would have a one-many relationship with the rentals table. 
+* Register and login pages would have to be made.
+* Some if-statements with the jinja2 logic within the .html forms to check which user is active and then give the options to which pages they can access.
 
 [trello-link]: https://trello.com/b/VTXiegA8/car-hire-system-qac
 [trello-sc-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/Trello.png
