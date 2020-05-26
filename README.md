@@ -55,7 +55,7 @@ This updated ERD only shows the relationship between 2 tables rather than 3 as i
 Here are some of the designs for the application.
 
 
-This page shows the available cars from the database (READ function)
+This page shows the available cars from the database (READ function). This page also has a link to each car's respective update pages.
 
 ![Home page][home]
 
