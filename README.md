@@ -98,7 +98,7 @@ To acheive this:
 [pb-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/product%20backlog.png
 [add-car]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/screenshots/Add%20car.png
 [rent-car]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/screenshots/Rent%20car.png
-[rental-history]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/screenshots/rental%20history.png
-[update-car]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/screenshots/update%20car%20info.png
-[update-rental]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/screenshots/update%20rental%20info.png
+[rental-history]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/screenshots/Rental%20history.png
+[update-car]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/screenshots/Update%20car%20info.png
+[update-rental]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/screenshots/Update%20rental%20info.png
 [home]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/screenshots/home.png
