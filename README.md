@@ -91,7 +91,7 @@ This page allows the user to update the details of an existing rental in the dat
 * Python3 - Logic
 * Flask - Web development framework
 * Jinja2 - Web template for Python
-* WTforms - Forms rendering framework for web development
+* WTForms - Forms rendering framework for web development
 * Jenkins - CI server
 * GUnicorn - Production server
 * MySQL - Database
