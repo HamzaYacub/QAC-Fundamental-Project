@@ -56,26 +56,33 @@ Here are some of the designs for the application.
 
 
 This page shows the available cars from the database (READ function)
+
 ![Home page][home]
 
 
 This page allows the user to enter a car into the database (CREATE function)
+
 ![Add car][add-car]
 
 
 This page allows the user to update the details of an existing car in the database (UPDATE function)
 This page also has a button to delete the selected car from the database (DELETE function)
+
 ![Update car][update-car]
 
 
 This page shows the rentals that have been made by customers (READ function)
+
 ![Rent history][rental-history]
 
 
 This page allows the user to make a rental from the cars available (CREATE function). The use of a QuerySelectField here can ensure that no user error can be made by inputting the wrong car_ID.
+
 ![Rent car][rent-car]
 
+
 This page allows the user to update the details of an existing rental in the database (UPDATE function)
+
 ![Update rental][update-rental]
 
 
