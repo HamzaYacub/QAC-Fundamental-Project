@@ -96,3 +96,9 @@ To acheive this:
 [erd2-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/ERD%20Diagram%20v2.png
 [ra-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/risk%20assessment%20pic.png
 [pb-link]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/product%20backlog.png
+[add-car]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/screenshots/Add%20car.png
+[rent-car]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/screenshots/Rent%20car.png
+[rental-history]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/screenshots/rental%20history.png
+[update-car]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/screenshots/update%20car%20info.png
+[update-rental]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/screenshots/update%20rental%20info.png
+[home]: https://github.com/HamzaYacub/QAC-Fundamental-Project/blob/master/Documentation/screenshots/home.png
