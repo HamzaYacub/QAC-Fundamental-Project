@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+  flask-app:
+    image: hamzay97/sfia1
+    build: ./
+    ports:
+    - target: 5000
+      published: 5000
+      protocol: tcp
+    environment:
+    - CAR_HIRE_DB_URI=${CAR_HIRE_DB_URI}
+    - SECRET_KEY=${SECRET_KEY}
+    - CSRF_SECRET_KEY=${CSRF_SECRET_KEY}
+
+    
+
