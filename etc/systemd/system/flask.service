@@ -2,7 +2,7 @@
 Description=Car_Hire_System
 [Service]
 User=jenkins
-ExecStart=/var/lib/jenkins/workspace/carhire_freestyle/script/installation.sh
+ExecStart=/var/lib/jenkins/workspace/sfia1/script/installation.sh
 
 [Install]
 WantedBy=multi-user.target
